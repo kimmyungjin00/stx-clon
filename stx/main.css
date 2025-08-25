@@ -1,0 +1,76 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.wrap {
+  position: relative;
+}
+.container {
+  width: 100%;
+  margin: auto;
+  width: 1200px;
+}
+.header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
+.header-inner {
+  display: flex;
+  width: 100%;
+  max-width: 1800px; /반응형
+  height: 80px;
+  margin: auto;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.nav {
+  width: 60%;
+}
+.nav ul {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  height: 80px;
+  background-color: cadetblue;
+}
+.nav li {
+  width: calc(100% / 6);
+
+font-weight: bold;
+font-size: 17px;
+}
+.banner {
+  position: absolute;
+  top: 80px;
+  padding-top: 80px;
+  width: 100%;
+  height: 800px;
+  background: url("./images/img_visual01.png") no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 80px;
+  padding-top: 200px;
+  padding-left: 300px;
+  color: #fff;
+  line-height: 1;
+   
+}
+h2 {
+  padding-left: 300px;
+  color: #fff;
+  margin-top: 30px;
+ 
+}
